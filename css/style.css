@@ -1614,7 +1614,8 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	border:2px dotted #ccc;
 	background:#f5f5f5;
 	color:#202020;
-	padding:20px;
+    padding:12px;
+    padding-right:65px;
 	text-transform:capitalize;
 	border-radius: 4px;
 	opacity: 1;
