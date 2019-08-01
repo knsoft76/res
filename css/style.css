@@ -65,6 +65,8 @@ body{
     line-height:1.80857;
     direction: rtl;
     text-align: right;
+    font-family: "IRANSans";
+    
 }
 
 a {
@@ -76,6 +78,7 @@ a {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+     
 }
 
 h1,
@@ -142,13 +145,17 @@ h6 a:hover {
 ul, li, ol{
 	margin:0px;
 	padding:0px;
-	list-style:none;
+    list-style:none;
+    font-family: "IRANSans";
+     
 }
 
 a {
     color: #1f1f1f;
     text-decoration: none;
     outline: none !important;
+    font-family: "IRANSans";
+   
 }
 
 a,
@@ -199,7 +206,7 @@ html, body{ height: 100%; }
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	text-align: center; 
-	font-family: georgia;
+	font-family: "IRANSans";
 	position: fixed;
 	top: 0px;
 	width: 100%;
@@ -297,7 +304,7 @@ html, body{ height: 100%; }
 	padding: 43px 0px 15px;
 	margin: 0 14px;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+    font-family: "IRANSans";
     text-transform: uppercase;
     letter-spacing: 1.6px;
 	position:relative;
@@ -629,6 +636,7 @@ html, body{ height: 100%; }
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
     border-radius: 999px;
+    
 }
 
 .about-images img {
@@ -639,13 +647,15 @@ html, body{ height: 100%; }
     -webkit-border-radius: 999px;
     -moz-border-radius: 999px;
     border-radius: 999px;
-	max-width: 100%;
+    max-width: 100%;
+    
 }
 
 .about-inset {
     position: absolute;
     top: 0;
     right: 0;
+    
 }
 
 
@@ -661,7 +671,7 @@ html, body{ height: 100%; }
 
 .special-menu:before {
     content: '';
-    display: inline-block;
+    display : inline-block;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.67);
@@ -683,14 +693,20 @@ html, body{ height: 100%; }
 #owl-demo .item{
   margin: 15px;
   position:relative;
+  
+   
 }
 #owl-demo .item img{
-  display: block;
+  
   width: 100%;
   height: auto;
+  display:block;
+
+   
 }
 .special-box .owl-theme .owl-controls{
-	margin:0px;
+    margin:0px;
+   
 }
 
 .item-type-zoom{
@@ -866,7 +882,7 @@ html, body{ height: 100%; }
     transform: translate(0, -50%);
     color: #000;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', iran sans;
     text-align: center;
     letter-spacing: .5px;
 }
@@ -1598,7 +1614,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	border:2px dotted #ccc;
 	background:#f5f5f5;
 	color:#202020;
-	padding:12px;
+	padding:20px;
 	text-transform:capitalize;
 	border-radius: 4px;
 	opacity: 1;
